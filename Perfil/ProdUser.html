@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link rel="stylesheet" type="text/css" href="..\css.css"/>
+	<title>Axou</title>	
+	<style type="text/css" media="screen">
+	 	* {
+			box-sizing: border-box; 
+		}
+		body {
+		  display: flex;
+		  min-height: 100vh;
+		  flex-direction: column;
+		  margin: 0;
+		}
+		#main {
+		  display: flex;
+		  flex: 1;
+		}
+		#main > article {
+		  flex: 1;
+		}
+		#main > nav, 
+		#main > aside {
+		  flex: 0 0 20vw;
+		  background: white;
+		}
+		
+		header, footer {
+		  background: white;
+		  height: 20vh;
+		}
+		header, footer, article, nav, aside {
+		  padding: 1em;
+		}
+	</style>
+
+
+</head>
+
+<body>
+  <header>
+
+
+  	<div>
+  		<a href="..\index.html"><img src="..\logo.png" alt="Logo da empresa Axou." width="120" style="margin-top: 0%; cursor: pointer; left: 7%; position: absolute;"></a>
+
+  		<div class="menu">
+	  		<a href="..\index.html"><button class="button">DESTAQUES</button></a>
+	  		<a href="categorias.html"><button class="button">PRODUTOS</button></a>
+	  		<a href="..\loginreg\login.html"><button class="button">MINHA CONTA</button></a>
+	  		<a href="..\portfolios.html"><button class="button">PORTFÓLIOS</button></a>
+  		</div>
+  		<div class="search">
+  				<input type="text" id="lname" name="lname" class="formsearch" placeholder="Buscar...">
+  				<a href="..\Busca\busca.html" class="lupa"><img src="..\LupaPesquisa.png" id="btnBusca" alt="Buscar" class="lupa1"></a>
+   		</div>
+
+  			
+  		
+  	</div>
+  	
+
+
+  </header>
+  <div id="main">
+    <article>
+    	<div class="dest">
+    		<h1 class="textdest">[USUÁRIO]</h1>
+    	</div>
+    	</div>
+
+
+	    	<div>
+	    	<a href="..\PagsProd\Prod01.html"><div class="produto" style="top: 40%; left: 5%;">
+	    		<img src="..\Produtos\FogEletrico\FogElet-01.jpg" width="240px;" class="imgProd">
+	    		<p class="titleprod">Fogão Elétrico uma boca 1000W</p>
+	    		<p class="prec">R$59,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod02.html"><div class="produto" style="top: 40%; left: 29%;">
+	    		<img src="..\Produtos\Chapa\Chapa.png" width="240px;" class="imgProd">
+	    		<p class="titleprod">Chapa Elétrica Mondial Grill Sanduicheira</p>
+	    		<p class="prec">R$99,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod03.html"><div class="produto" style="top: 40%; left: 52%;">
+	    		<img src="..\Produtos\KCCS\KitCatracaS.jpg" width="190px;" class="imgProd">
+	    		<p class="titleprod">Kit Chave Catraca Sparta - 40 Peças</p>
+	    		<p class="prec">R$49,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod04.html"><div class="produto" style="top: 40%; left: 75%;">
+	    		<img src="..\Produtos\ParM\ParM.jpg" width="200px;" class="imgProd">
+	    		<p class="titleprod">Parafusadeira Furadeira 12V Mondial - Reverso</p>
+	    		<p class="prec">R$199,90</p>
+	    	</div></a>
+		</div>
+
+		<div>
+	    	<a href="..\PagsProd\Prod05.html"><div class="produto" style="top: 95%; left: 5%;">
+	    		<img src="..\Produtos\KFS\KFS.jpg" width="200px;" class="imgProd">
+	    		<p class="titleprod">Kit de Ferramentas Sparta - 189 peças</p>
+	    		<p class="prec">R$199,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod06.html"><div class="produto" style="top: 95%; left: 29%;">
+	    		<img src="..\Produtos\Cafeteira\Caf.jpg" width="180px;" class="imgProd">
+	    		<p class="titleprod">Cafeteira Elétrica Fischer 1000W - 1,5L</p>
+	    		<p class="prec">R$99,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod07.html"><div class="produto" style="top: 95%; left: 52%;">
+	    		<img src="..\Produtos\Cabo\Cabo.png" width="160px;" class="imgProd">
+	    		<p class="titleprod">Cabo Para Carregador Reforçado - 2 metros</p>
+	    		<p class="prec">R$19,90</p>
+	    	</div></a>
+
+	    	<a href="..\PagsProd\Prod08.html"><div class="produto" style="top: 95%; left: 75%;">
+	    		<img src="..\Produtos\Masc\Masc.jpg" width="240px;" class="imgProd">
+	    		<p class="titleprod">Máscara de Solda Automática - Lynus</p>
+	    		<p class="prec">R$119,90</p>
+	    	</div></a>
+		</div>
+    	
+    </article>
+  </div>
+  <footer>
+	  <div class="footer">
+	  	
+	  	
+	  	
+	  	<p><a href="https://www.facebook.com/AxouBrasil/?ref=br_rs"><img src="..\iconFace.png" width="35px;" class="redes"></a>  <a href=""><img src="..\iconInsta.png" width="35px;"class="redes"></a> <a href=""><img src="..\iconTwitter.png" width="35px;"class="redes"></a></p>
+
+	  	<p>B2W - Companhia Digital / CNPJ: 00.000.000/0000-00 / Inscrição Estadual: 00.000.00-0 / Endereço Rua Unoeste, 000 - Presidente Prudente, SP - 18000-000. </p>
+	  	<p>Desde 2020/2 - Contato: <a href="">desenvolvedores@axou.com</a></p>
+	  </div>
+</footer>
+</body>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link rel="stylesheet" type="text/css" href="cssPerfil.css"/>
+	<link rel="stylesheet" type="text/css" href="..\css.css"/>
+	<title>Perfil</title>	
+    <style type="text/css" media="screen">
+    * {
+			box-sizing: border-box; 
+		}
+		body {
+		  display: flex;
+		  min-height: 100vh;
+		  flex-direction: column;
+		  margin: 0;
+		}
+		#main {
+		  display: flex;
+		  flex: 1;
+		}
+		#main > article {
+		  flex: 1;
+		}
+		#main > nav, 
+		#main > aside {
+		  flex: 0 0 20vw;
+		  background: white;
+		}
+		
+		header, footer {
+		  background: white;
+		  height: 20vh;
+		}
+		header, footer, article, nav, aside {
+		  padding: 1em;
+		}
+
+    </style>
+</head>
+
+<body>
+    <header>
+    <div>
+        <a href="..\index.html"><img src="..\logo.png" alt="Logo da empresa Axou." width="120" style="margin-top: 0%; cursor: pointer; left: 7%; position: absolute;"></a>
+
+        <div class="menu">
+            <a href="compra.html"><button class="button">MINHAS COMPRAS</button></a>
+            <a href="pedidos.html"><button class="button">PEDIDOS</button></a>
+            <a href="Chat.html"><button class="button">CHAT</button></a>
+            <a href="visuperfil.html"><div class="button">
+                <img class="imguser" src="user.png" alt="Usuário" width="20px"> USUÁRIO</div>
+        	</div></a>
+        	<a href="..\index.html"><button class="button" style="padding: 10px; position: absolute; left: 93.9%; top: 6%; border-radius: 35%;">SAIR</button></a>
+        	
+        <div class="search">
+            <input type="text" id="lname" name="lname" class="formsearch" placeholder="Buscar...">
+            <a href="..\Busca\busca.html" class="lupa"><img src="..\LupaPesquisa.png" id="btnBusca" alt="Buscar" class="lupa1"></a>
+     </div>
+
+        
+        
+    </div>
+</header>
+
+<div id="main">
+    <article>
+    	
+    	<div class="dest">
+    		<h1 class="textdest" style="left: 33%;">Dúvidas Frequentes</h1>
+        </div>
+
+
+        <div style="font-size: 20px; font-family: Arial; text-align: center;">
+        	<p style="text-decoration: underline; font-size: 25px;font-weight: 700">Como faço para meu produto entrar na aba "Destaque"?</p>
+        	<P>Resposta: Para entrar em destaque basta pagar a pequena taxa de <span style="text-decoration: underline; font-weight: 600">R$19,90</span> por mês e eventualmente seu produto será bem posicionado na aba de Destaques, e com isso você alavancará substancialmente as suas vendas.</P>
+        	<div style="margin-top: 15px;">
+       
+            	<a href="duvidas.html"><button class="button" style="font-size: 20px;">Outra dúvida?</button></a>
+
+			</div>
+        </div>
+
+
+    </article>
+    <footer>
+	  <div class="footer" style="left: 1%;">
+	  	
+	  	
+	  	
+	  	<p><a href="https://www.facebook.com/AxouBrasil/?ref=br_rs"><img src="..\iconFace.png" width="35px;" class="redes"></a>  <a href=""><img src="..\iconInsta.png" width="35px;"class="redes"></a> <a href=""><img src="..\iconTwitter.png" width="35px;"class="redes"></a></p>
+
+	  	<p>B2W - Companhia Digital / CNPJ: 00.000.000/0000-00 / Inscrição Estadual: 00.000.00-0 / Endereço Rua Unoeste, 000 - Presidente Prudente, SP - 18000-000. </p>
+	  	<p>Desde 2020/2 - Contato: <a href="">desenvolvedores@axou.com</a></p>
+	  </div>
+</footer>
+</body>
+</html>

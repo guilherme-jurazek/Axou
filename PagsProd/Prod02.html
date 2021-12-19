@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link rel="stylesheet" type="text/css" href="..\css.css"/>
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+	<link rel="stylesheet" type="text/css" href="csspag.css"/>
+	<title>Axou</title>	
+	<style type="text/css" media="screen">
+	 	* {
+			box-sizing: border-box; 
+		}
+		body {
+		  display: flex;
+		  min-height: 100vh;
+		  flex-direction: column;
+		  margin: 0;
+		}
+		#main {
+		  display: flex;
+		  flex: 1;
+		}
+		#main > article {
+		  flex: 1;
+		}
+		#main > nav, 
+		#main > aside {
+		  flex: 0 0 20vw;
+		  background: white;
+		}
+		
+		header, footer {
+		  background: white;
+		  height: 20vh;
+		}
+		header, footer, article, nav, aside {
+		  padding: 1em;
+		}
+	</style>
+
+
+</head>
+
+<body>
+  <header>
+
+
+  	<div>
+  		<a href="..\index.html"><img src="..\logo.png" alt="Logo da empresa Axou." width="120" style="margin-top: 0%; cursor: pointer; left: 7%; position: absolute;"></a>
+
+  		<div class="menu">
+	  		<a href="..\index.html"><button class="button">DESTAQUES</button></a>
+	  		<a href="..\Categorias\categorias.html"><button class="button">PRODUTOS</button></a>
+	  		<a href="..\loginreg\login.html"><button class="button">MINHA CONTA</button></a>
+	  		<a href="..\portfolios.html"><button class="button">PORTFÓLIOS</button></a>
+  		</div>
+  		<div class="search">
+  				<input type="text" id="lname" name="lname" class="formsearch" placeholder="Buscar...">
+  				<a href="..\Busca\busca.html" class="lupa"><img src="..\LupaPesquisa.png" id="btnBusca" alt="Buscar" class="lupa1"></a>
+   		</div>
+
+  		
+  		
+  	</div>
+  	
+
+
+  </header>
+
+  <div id="main">
+    <article>
+
+
+    	<div>
+	    	<div class="pag-produto">
+	    		<img src="..\Produtos\chapa\Chapa.png" width="430px;" class="pag-imgProd" style="position: absolute; left: 8%;">
+	    		<a href="..\Perfil\visuperfiloutro.html"><p style="position: absolute; top: 25%; font-family: Verdana; font-size: 20px; left: 47%; font-weight: 500;" class="VendedorNome">[nome do vendedor] - [cidade do vendedor]</p></a>
+	    		<p class="pag-titleprod">Chapa Elétrica Mondial Grill Sanduicheira</p>
+	    		<p class="pag-cor">Qual Cor?</p>
+	    		<div class="corProd corBranca" style="top: 51%; left: 47%;"></div>
+	    		<div class="corProd" style="top: 45%; left: 47%;"><img src="CorPreta.png" width="100%;" class="corBox"></div>
+	    		<p class="corTxt" style="left: 50%; top: 43%;">Preto</p>
+	    		<p class="corTxt" style="left: 50%; top: 49%;">Branco</p>
+	    		<p class="pag-prec">R$99,90</p>
+	    		<a href="..\Comprar\loginCompra.html"><button class="button" style="position: absolute; top: 68%; left: 47%; font-size: 20px; font-weight: 600">COMPRAR</button></a>
+	    		<a href="..\Comprar\loginChat.html"><button class="button2" style="position: absolute; top: 76%; left: 47%; font-size: 15px; font-weight: 550">Enviar mensagem ao vendedor.</button></a>
+	    	</div>	
+	    	
+
+
+	    	<div>
+		    	<div class="desc">
+	    			<h1 class="textdesc">DESCRIÇÃO</h1>
+		    	</div>
+		    	<div style="position: absolute; top: 100%; padding: 15px; font-size: 20px; font-family: arial; width: 97%;">
+		    		<p>
+		    		Fogareiro Elétrico Alwaha Gold 110v com controle de temperatura.<br><br>
+					Excelente para camping e acendimento de carvão para Narguiles.<br>
+					Ficha Técnica<br>
+					Modelo: WY-02<br>
+					Tensão: 110v<br>
+					Frequência: 50/60Hz<br>
+					Cor: Escolha (Preto ou Branco)<br>
+					Acompanha Manual: SIM<br>
+					Potência: 1000w<br>
+					</p>
+					<hr>
+		    	</div>
+			</div>
+
+		
+    	
+    </article>
+  </div>
+  <footer>
+	  <div class="footer">
+	  	
+	  	
+	  	
+	  	<p><a href="https://www.facebook.com/AxouBrasil/?ref=br_rs"><img src="..\iconFace.png" width="35px;" class="redes"></a>  <a href=""><img src="..\iconInsta.png" width="35px;"class="redes"></a> <a href=""><img src="..\iconTwitter.png" width="35px;"class="redes"></a></p>
+
+	  	<p>B2W - Companhia Digital / CNPJ: 00.000.000/0000-00 / Inscrição Estadual: 00.000.00-0 / Endereço Rua Unoeste, 000 - Presidente Prudente, SP - 18000-000. </p>
+	  	<p>Desde 2020/2 - Contato: <a href="">desenvolvedores@axou.com</a></p>
+	  </div>
+</footer>
+</bod

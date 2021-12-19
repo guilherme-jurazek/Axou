@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>registrar</title>
+    <link rel="stylesheet" type="text/css" href="reg-css.css"/>
+    <style type="text/css">
+        .topo {
+        background-color: red;
+        margin: 0;
+        padding: 0;
+            }
+        .fim {
+        background-color: red;
+        position:absolute;
+        bottom:0;
+        width:100%;
+            }
+    </style>
+</head>
+<body>
+    <div class="topo">&nbsp</div>
+    <form>
+        <div class="tt">
+            <h1>Registrar:</h1>
+        </div>
+        <div class="reg">
+                <div class="text">
+                    <label for="user">Nome:</label><br/>
+                    <input  id="user" type="text" placeholder="Nome do Usuario" name="" value="" required="required" maxlength="40" autofocus="true"/>
+                </div>
+        
+                <div class="text">
+                    <label for="pw">Senha:</label><br/>
+                    <input id="pw" type="password" placeholder="Digite sua senha" name="" value="" required="required" maxlength="15"/>
+                    <br/>
+                    <input type="password" placeholder="Digite sua senha novamente" name="" value="" required="required" maxlength="15"/>
+                </div>
+                <div class="text">
+                    <label for="pic">Selecione sua foto:</label><br/>
+                    <input type="file" id="pic" size="40" required="required" accept=".png, .jpg, .jpeg"/>                   
+                </div>
+        </div>
+        <div class="secreg">
+            <div class="text">
+                <label for="email">E-mail:</label><br/>
+                <input type="email" id="email" size="30" placeholder="generico@genericomail.com" required="required"/>
+            </div>
+            <div class="text">
+                <label for="fone">Telefone:</label><br/>
+                <input type="tel" id="fone" size="30" pattern="\(\d{2}\)\s\d{5}-\d{4}" title="(99) 99999-9999" required="required"/>           
+            </div>
+            <div class="text">
+                <label for="cep">CEP:</label><br/>
+                <input type="number" id="cep" size="30"  required="required" min="0" max="999999999" step="1"/>
+            </div>
+        </div>
+        <div class="pos">
+            <a href="..\Perfil\Perfil.html"><input class="btn" type="submit"  value="Finalizar Registro"/></a>
+        </div>
+    </form>
+    <div class="voltar">
+        <a href="login.html"><button class="btn">Voltar</button></a>
+    </div> 
+    <div class="fim">&nbsp</div>  
+</body>
+</html>
